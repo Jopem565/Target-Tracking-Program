@@ -1,0 +1,54 @@
+/* css for the login page */
+.containerLogin {
+    background-color : lightblue;
+    background: linear-gradient(to right, #e2e2e2,lightblue);
+
+    min-height : 100vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.contentLogin {
+    font-family: 'Montserrat', sans-serif;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+
+    padding-right : 30px;
+    padding-top : 75px;
+    padding-bottom : 75px;
+
+    width : 45%;
+    background-color : #fff;
+    border-radius : 29px;
+    box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttonLogin {
+  transition-duration: 0.4s;
+  font-size: 17px;
+  font-weight : 400;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top : 8px;
+  padding-bottom : 8px;
+
+  background-color: transparent;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  gap: 10px;
+  border-radius: 29px;
+  opacity: 100%;
+}
+
+.buttonLogin:hover {
+  background-color : gray;
+  opacity : 80%; 
+  cursor : pointer;
+}

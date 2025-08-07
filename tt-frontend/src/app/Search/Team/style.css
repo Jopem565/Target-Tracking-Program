@@ -1,0 +1,100 @@
+/* css for the TL dashboard page */
+.overview {
+  width: 500px;
+  padding: 10px;
+  margin: 60px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+}
+
+.tableHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.myTableWrapper th {
+    height: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.employeeTable {
+    height: 200px;
+    overflow: auto;
+}
+
+.name {
+  color: #2CAEE0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.name:hover {
+  color: #00344A;
+}
+
+.myTableWrapper table, 
+.myTableWrapper tr,
+.myTableWrapper td {
+    width: 700px;
+    height: 20px;
+    align-items: center;
+    margin: 60px auto 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow: auto;
+} 
+
+.backButton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.negative {
+  background-color: red;
+  color: white;
+}
+
+.positive {
+  background-color: lightgreen;
+  color: black;
+}
+
+.equal {
+  background-color: white;
+  color: black;
+}
+
+/* css for sorting the table */
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.sortable::after {
+  content: '\21F5'; /* default neutral arrow */
+  position: absolute;
+  right: 15px;
+  transition: color 0.2s ease-in-out;  
+}
+
+.sortable:hover::after {
+  color: inherit;
+  opacity: 0.6;
+}
+
+.sortable.dir-d::after {
+  color: inherit;
+  content: '\2193'; /* down arrow */
+}
+
+.sortable.dir-u::after {
+  color: inherit;
+  content: '\2191'; /* up arrow */
+}

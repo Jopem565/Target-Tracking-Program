@@ -1,0 +1,61 @@
+/* Styling for Search Page in Admin View */
+.employeeSearch {
+  width: 500px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 60px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+}
+
+.employeeSearch h1 {
+  margin-right: 45px;
+  font-size: 40px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.searchResults {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.byteratioLogo {
+    padding: 1px 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}

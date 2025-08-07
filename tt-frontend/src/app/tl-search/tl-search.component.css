@@ -1,0 +1,43 @@
+.employee-search {
+    width: 700px;
+    border: 1px solid black;
+    padding: 30px;
+    height: 40px;
+    margin: 60px auto 20px auto; 
+    text-align: center; 
+    align-items: center; 
+    margin-top: 100px;
+
+}
+
+.search-bar {
+    padding-top: 30px; 
+    text-align: center;
+    align-items: center;
+}
+
+.search-bar input {
+    text-align: left;
+    padding: 10px 300px;
+}
+
+
+.byteratio-logo {
+    /* padding-top: 40px; */
+    padding: 1px 1px; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.your-page {
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}

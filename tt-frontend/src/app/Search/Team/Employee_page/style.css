@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body {
+  background-color: #dce3e5;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30pt;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}
+
+text {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.calendar-icon-custom {
+  margin-top: 15px;
+  margin-left: 350px;
+}
